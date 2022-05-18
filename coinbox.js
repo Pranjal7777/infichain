@@ -1,47 +1,5 @@
 
 
-// let url = "wss://ws-feed.prime.coinbase.com"
-// let socket = new WebSocket(url)
-
-
-
-
-// socket.onmessage = function (event) {
-//     console.log(event)
-
-// }
-
-// // const io = require("socket.io")
-
-// const socket = io('wss://ws-feed.pro.coinbase.com');
-
-// console.log(socket)
-
-// let ws = new WebSocket('wss://ws-feed.prime.coinbase.com');
-
-// ws.onopen = function () {
-//Subscribe to the channel
-// ws.send(({
-
-//     type: "subscribe",
-//     product_ids: ["BTC-USD"],
-//     channel: ["full"]
-// }))
-
-//     const msg = {
-//         type: 'subscribe',
-//         channel: ['full'],
-
-//         market_id: 'BTC-USD'
-
-//     };
-//     ws.send(JSON.stringify(msg));
-// }
-
-// ws.onmessage = (event) => {
-//     console.log(event.data);
-// };
-
 
 const ws = new WebSocket('wss://ws-feed.pro.coinbase.com');
 
